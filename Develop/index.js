@@ -13,6 +13,16 @@ const promptUser = () =>
     },
     {
       type: "input",
+      name: "github",
+      message: "What is your github username?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email?",
+    },
+    {
+      type: "input",
       name: "description",
       message: "Description?",
     },
@@ -36,12 +46,12 @@ const promptUser = () =>
       name: "test",
       message: "How do you test it?",
     },
-    // {
-    //   type: "checkbox",
-    //   name: "license",
-    //   message: "which license?",
-    //   choices:
-    // },
+    {
+      type: "checkbox",
+      name: "license",
+      message: "which license?",
+      choices: ["mit", "apache", "unlicense"],
+    },
   ]);
 
 const generateReadme = (answers) =>
@@ -68,30 +78,26 @@ const generateReadme = (answers) =>
     ${answers.description}
     
 
-
-    
     ## Installation
     
-    *Steps required to install project and how to get the development environment running:*
     
     ${answers.installation}
     
+
     ## Usage 
     
-    *Instructions and examples for use:*
     
     ${answers.usage}
 
     
     ## Contributing
     
-    *If you would like to contribute it, you can follow these guidelines for how to do so.*
-    
+   
     ${answers.contribution}
 
-## Tests
     
-    *Tests for application and how to run them:*
+    ## Tests
+    
     
     ${answers.tests}
 
@@ -101,12 +107,12 @@ const generateReadme = (answers) =>
     ${answers.license}
     
 
-
     ## Questions?
      
     
-    For any questions, please contact me with the information below:
+    Contact:
    
+    
     GitHub: [@${answers.username}](${answers.email})
     `;
 

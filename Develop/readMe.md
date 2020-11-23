@@ -1,4 +1,10 @@
--[Title](#title)
+#read me generator
+  
+  
+  
+  
+  
+  
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -12,47 +18,43 @@
     ## Description 
      
     
-    k
+    a node app the creates a professional read me based on inquirer responses
     
 
-
-    
     ## Installation
     
-    *Steps required to install project and how to get the development environment running:*
     
-    k
+    enter "node index.js" in the command
     
+
     ## Usage 
     
-    *Instructions and examples for use:*
     
-    k
+    you run the command in terminal then answer the questions then copy the read me generated
 
     
     ## Contributing
     
-    *If you would like to contribute it, you can follow these guidelines for how to do so.*
-    
+   
     undefined
 
-## Tests
     
-    *Tests for application and how to run them:*
+    ## Tests
+    
     
     undefined
 
     
     ## License
     
-    undefined
     
-
+    
 
     ## Questions?
      
     
-    For any questions, please contact me with the information below:
+    Contact:
    
-    GitHub: [@undefined](undefined)
+    
+    GitHub: [@undefined](kai6curtis@gmail.com)
     
