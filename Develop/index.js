@@ -29,7 +29,7 @@ const promptUser = () =>
     {
       type: "input",
       name: "installation",
-      message: "How do you install the it?",
+      message: "How do you install it?",
     },
     {
       type: "input",
@@ -38,7 +38,7 @@ const promptUser = () =>
     },
     {
       type: "input",
-      name: "contriubtion",
+      name: "contribution",
       message: "Contribution guidelines?",
     },
     {
@@ -47,7 +47,7 @@ const promptUser = () =>
       message: "How do you test it?",
     },
     {
-      type: "checkbox",
+      type: "list",
       name: "license",
       message: "which license?",
       choices: ["mit", "apache", "unlicense"],
@@ -99,7 +99,7 @@ const generateReadme = (answers) =>
     ## Tests
     
     
-    ${answers.tests}
+    ${answers.test}
 
     
     ## License
@@ -110,10 +110,12 @@ const generateReadme = (answers) =>
     ## Questions?
      
     
-    Contact:
+    Contact-
    
     
-    GitHub: [@${answers.username}](${answers.email})
+    GitHub: @${answers.github}
+    
+    Email: @${answers.email}
     `;
 
 promptUser()

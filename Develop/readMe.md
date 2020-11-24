@@ -1,60 +1,41 @@
-#read me generator
-  
-  
-  
-  
-  
-  
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [License](#license)
-  - [Questions?](#questions-)
+#node readMe generator
 
-  
-    
-    ## Description 
-     
-    
-    a node app the creates a professional read me based on inquirer responses
-    
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions?](#questions-)
 
-    ## Installation
-    
-    
-    enter "node index.js" in the command
-    
+  ## Description
 
-    ## Usage 
-    
-    
-    you run the command in terminal then answer the questions then copy the read me generated
+  a node app the generates a readme based on user input from inquirer
 
-    
-    ## Contributing
-    
-   
-    undefined
+  ## Installation
 
-    
-    ## Tests
-    
-    
-    undefined
+  enter "node index.js" in the command line while in the develop root
 
-    
-    ## License
-    
-    
-    
+  ## Usage
 
-    ## Questions?
-     
-    
-    Contact:
-   
-    
-    GitHub: [@undefined](kai6curtis@gmail.com)
-    
+  enter the info when prompted then once notified. copy and paste the genrated readme
+
+  ## Contributing
+
+  none
+
+  ## Tests
+
+  tbh idk
+
+  ## License
+
+  unlicense
+
+  ## Questions?
+
+  Contact-
+
+  GitHub: @kaiasahite
+
+  Email: @kai6curtis@gmail.com
